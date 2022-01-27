@@ -1,8 +1,8 @@
 FROM node:latest
 
-WORKDIR /app
+WORKDIR /hello-world
 
-ENV PATH /app/node_modules/.bin:$PATH
+ENV PATH /hello-world/node_modules/.bin:$PATH
 
 RUN npm install
 
